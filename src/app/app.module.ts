@@ -18,7 +18,8 @@ import { TopWidgetsComponent } from './top-widgets/top-widgets.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    CardModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
