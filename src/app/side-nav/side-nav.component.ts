@@ -6,5 +6,13 @@ import { Component } from '@angular/core';
   styleUrls: ['./side-nav.component.scss']
 })
 export class SideNavComponent {
+  loading: boolean = false;
 
+  load() {
+    this.loading = true;
+
+    setTimeout(() => {
+      this.loading = false
+    }, 2000);
+  }
 }
